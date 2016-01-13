@@ -6,14 +6,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTest {
 
+        //main method
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FirstTest obj = new FirstTest();
 		//obj.callFirefox();
 		obj.callChrome();
-
 	}
 	
+	//firefox 
 	public void  callFirefox(){
 		WebDriver driver = new FirefoxDriver();
 		String baseUrl ="https://www.hightail.com";
